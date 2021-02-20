@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML input variation and form</title>
+</head>
+<body>
+    <form action="" method="GET">
+    <div >
+<label for=""> Name:
+    <input type="text" name="username" id="name" placeholder="please enter your name">
+</label>
+    </div>
+    <div>
+        <label for="">Phone:</label>
+        <input type="number" >
+    </div>
+
+    <div>
+        <label for="">Password:</label>
+        <input type="password">
+    </div>
+    <div><label for="">Facebook</label>
+    <input type="url"></div>
+    <div>
+        <label for="">DOB:</label>
+        <INput type="date"></INput>
+    </div>
+    <div>
+        <label for="">Detail Message:</label>
+        <textarea name="" id="" cols="8" rows="1"></textarea>
+    </div>
+    <div><label for="">Gender:</label>
+
+
+    <input type="radio" name="gender"><label for="">Male:</label>
+<input type="radio" name="gender"><label for="">Female:</label></div>
+   <div><label for="">Attachment:</label>
+<input type="file" accept="image/*"></div>
+<div>
+<label>email:</label>
+<input type="email">
+</div>
+<div>
+    <input type="checkbox">
+    <label>Accept the terms and condition:</label>
+</div>
+<div>
+    <label>Budge:</label>
+    <input type="range" min="1" max="100" value="50">
+</div>
+
+<div>
+    <label>Favourite Subject:</label>
+    <select name="" id="" multiple
+      >
+        <option value="">-- select --</option>
+        <option value="Maths">Maths</option>
+        <option value="Science">Science</option>
+        <option value="History">History</option>
+    </select>
+</div>
+
+<div>
+    <label>Choose a Dish:</label>
+    <select name="" id="">
+        <optgroup label="Italian">
+            <option>Margherita Pizza</option>
+            <option>Spaghetti</option>
+        </optgroup>
+        <optgroup label="Mexican">
+            <option>Chicken Tacos</option>
+            <option>Tomato Salsa</option>
+        </optgroup>
+    </select>
+</div>
+
+<div>
+    <label for="car">Chose a Car:</label>
+    <input type="text" name="" id="car" list="cars">
+
+    <datalist id="cars">
+        <option value="lamborghini">
+        <option value="Ferrari">
+        <option value="Bugatti">
+    </datalist>
+</div>
+<input type="submit" value="Send">
+</body>
+</html>
